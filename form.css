@@ -1,0 +1,37 @@
+body {
+    background-image: url('image/blue_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    color: black;
+
+    font-size: 1.8rem;
+}
+.red-text{
+    color: red;
+}
+.form{
+    display: flexbox;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(136, 255, 0, 0.205);
+    border-radius: 10px;
+    font-size: 1.01rem;
+}
+.inputfield{
+    
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #000000;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+.signUpAnchor{
+    text-decoration: none;
+}
